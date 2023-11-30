@@ -1,11 +1,3 @@
-/* ************************************************************************
-> File Name:     stress_test.cpp
-> Author:        程序员Carl
-> 微信公众号:    代码随想录
-> Created Time:  Sun 16 Dec 2018 11:56:04 AM CST
-> Description:   
- ************************************************************************/
-
 #include <iostream>
 #include <chrono>
 #include <cstdlib>
@@ -15,7 +7,7 @@
 
 #define NUM_THREADS 1
 #define TEST_COUNT 100000
-SkipList<int, std::string> skipList(18);
+zskiplist<int, std::string> skipList(18);
 
 void *insertElement(void* threadid) {
     long tid; 

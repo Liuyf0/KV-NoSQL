@@ -33,6 +33,7 @@
 * deleteElement（删除数据）
 * searchElement（查询数据）
 * displayList（展示已存数据）
+* clear_list (清空数据)
 * dumpFile（数据落盘）
 * loadFile（加载数据）
 * size（返回数据规模）
